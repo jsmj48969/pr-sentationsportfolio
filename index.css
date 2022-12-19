@@ -1,0 +1,199 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+   font-family: arboria, sans-serif;
+   font-weight: 400;
+   text-decoration: none;
+   list-style: none;
+}
+header{
+   position: fixed;
+   top: 50;
+   right: 510px;
+   width: 100%;
+   z-index: 1000;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 5%;
+
+}
+.logo{
+   color: #213422;
+   font-family: adorn-coronet, sans-serif;
+   font-size: 70px;
+   font-weight: 400;
+   font-style: normal;
+   margin-left: 600px;
+   margin-top: -20px;
+}
+.navlist{
+   display: flex;
+}
+.navlist a{
+   color: #213422;
+   font-size: 1rem;
+   font-family: aboria, bold;
+   font-weight: 500;
+   padding: 5px 5px;
+   margin: 0 22px;
+   border-bottom: 2px solid transparent;
+   transition: all .40s ease;
+   font-style: bold;
+}
+.navlist a:hover{
+   color: #213422;
+   border-bottom: 2px solid #e2d1b8;
+
+}
+.main-header{
+   width: 100%;
+   height: 100vh;
+   background:#fff7f2;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   align-items: center;
+}
+.container{
+   background-color: #fff7f2;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.mig-img{
+   margin-left: 125px;
+   float: right;
+   width: 300px;
+   
+}
+
+.img-col{
+   flex-basis: 50%;
+}
+
+
+section{
+   padding: 0 19%;
+}
+
+.main-text h1{
+   font-family: aboria, bold;
+   margin: 15px 0;
+   font-size: 5.5rem
+   font-weight 800;
+   color:#213422;
+   letter-spacing: 1px;
+   line-height: 1.1;
+}
+
+
+.main-text h5{
+   font-family: aboria, bold;
+   font-size: 1.3rem;
+   color: #213422
+   font-weight 600;
+   letter-spacing: 3px;
+}
+
+
+
+.main-text p{
+   font-family: aboria, book;
+   font-size: 1.1rem;
+   color: #213422;
+   line-height: 30px;
+   margin-bottom: 3rem;
+
+}
+
+@media (max-width: 1470px){
+   header{
+      padding: 15px 2%;
+      transition: .2s;
+   }
+   section{
+      padding: 0 2%;
+      transition: .2s;
+   }
+   .left{
+      display: none;
+   }
+   .right{
+      right:2%;
+      transition: .2s;
+   } 
+
+}
+
+
+@media (max-width: 1000px){
+   .main-text h1{
+      font-size: 1.1rem;
+      transition: .2s;
+   }
+   .main-text h5{
+      margin-top: 90px;
+      margin-bottom: -200;
+      font-size: 10px;
+   }
+   .main-text p{
+      font-size: 1rem;
+   }
+   .navlist a{
+      color: #213422;
+      font-size: 1rem;
+      font-family: aboria, bold;
+      font-weight: 500;
+      padding: 5px 5px;
+      margin: 0 22px;
+      border-bottom: 2px solid transparent;
+      transition: all .40s ease;
+      font-style: bold;
+}
+
+
+@media (max-width: 975px){
+ 
+   .mig-img{
+      transition: .5s;
+      width: 175px;
+      margin-left: 30px;
+   }
+   header{
+      position: fixed;
+      top: 0px;
+      right: 400px;
+      width: 100%;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 5%;
+   }
+.navlist a{
+   color: #213422;
+   font-size: 10px;
+   font-family: aboria, bold;
+   font-weight: 20px;
+   padding: 2,5px 2,5px;
+   margin: 0 22px;
+   border-bottom: 2px solid transparent;
+   transition: all .20s ease;
+   font-style: bold;
+      
+}
+.logo{
+   color: #213422;
+   font-family: adorn-coronet, sans-serif;
+   font-size: 40px;
+   font-weight: 400;
+   font-style: normal;
+   margin-left: 400px;
+   margin-top: -20px;
+}
+}
